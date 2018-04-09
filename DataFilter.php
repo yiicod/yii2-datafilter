@@ -2,14 +2,14 @@
 
 namespace yiicod\datafilter;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class DataFilter
  *
  * @package yiicod\datafilter
  */
-class DataFilter extends Object
+class DataFilter extends BaseObject
 {
     /**
      * Filter data

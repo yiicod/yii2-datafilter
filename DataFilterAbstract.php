@@ -2,7 +2,7 @@
 
 namespace yiicod\datafilter;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Class DataFilterAbstract
@@ -12,7 +12,7 @@ use yii\base\Object;
  *
  * @package yiicod\datafilter
  */
-abstract class DataFilterAbstract extends Object
+abstract class DataFilterAbstract extends BaseObject
 {
     /**
      * Filtered value
